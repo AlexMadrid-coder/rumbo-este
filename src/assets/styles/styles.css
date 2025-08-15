@@ -1,0 +1,64 @@
+:root {
+  /* Colores principales de Rumbo Este */
+  --primary-terracotta: #B88A7A;      /* Color de fondo principal */
+  --primary-terracotta-light: #C8A898; /* Versión más clara */
+  --primary-terracotta-dark: #A67968;  /* Versión más oscura */
+  
+  --secondary-burgundy: #6B3429;       /* Color del texto/logo */
+  --secondary-burgundy-dark: #4A241C;  /* Versión más oscura */
+  --secondary-burgundy-light: #8B4536; /* Versión más clara */
+  
+  --accent-rose: #D4A69B;             /* Tonos rosáceos del fondo */
+  --accent-mauve: #C49A9A;            /* Tonos malva suaves */
+  
+  /* Neutros */
+  --white: #FFFFFF;
+  --cream: #FAF8F6;                   /* Blanco cálido */
+  --warm-gray: #8A7A70;               /* Gris cálido */
+  --dark-brown: #3D2B22;              /* Marrón oscuro */
+  
+  /* Gradientes */
+  --gradient-primary: linear-gradient(135deg, var(--primary-terracotta) 0%, var(--accent-rose) 100%);
+  --gradient-secondary: linear-gradient(45deg, var(--secondary-burgundy) 0%, var(--secondary-burgundy-light) 100%);
+  --gradient-overlay: linear-gradient(rgba(107, 52, 41, 0.8), rgba(180, 138, 122, 0.6));
+  
+  /* Sombras */
+  --shadow-soft: 0 4px 20px rgba(107, 52, 41, 0.15);
+  --shadow-medium: 0 8px 30px rgba(107, 52, 41, 0.25);
+  --shadow-strong: 0 12px 40px rgba(107, 52, 41, 0.35);
+  
+  /* Typography */
+  --font-family-primary: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-family-display: 'Playfair Display', serif; /* Para títulos artísticos */
+  
+  /* Espaciado */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+  --spacing-2xl: 4rem;
+  
+  /* Tamaños de fuente */
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 1.875rem;
+  --text-4xl: 2.25rem;
+  --text-5xl: 3rem;
+  
+  /* Transiciones */
+  --transition-fast: 0.15s ease-in-out;
+  --transition-medium: 0.3s ease-in-out;
+  --transition-slow: 0.5s ease-in-out;
+  
+  /* Border radius */
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-full: 9999px;
+}

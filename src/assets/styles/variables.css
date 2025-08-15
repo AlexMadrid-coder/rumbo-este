@@ -1,0 +1,21 @@
+/* Pega aquí toda la paleta de colores que definimos antes */
+:root {
+  /* Colores principales de Rumbo Este */
+  --primary-terracotta: #B88A7A;
+  --primary-terracotta-light: #C8A898;
+  --primary-terracotta-dark: #A67968;
+  
+  --secondary-burgundy: #6B3429;
+  --secondary-burgundy-dark: #4A241C;
+  --secondary-burgundy-light: #8B4536;
+  
+  --accent-rose: #D4A69B;
+  --accent-mauve: #C49A9A;
+  
+  --white: #FFFFFF;
+  --cream: #FAF8F6;
+  --warm-gray: #8A7A70;
+  --dark-brown: #3D2B22;
+  
+  /* ... resto de variables que definimos */
+}

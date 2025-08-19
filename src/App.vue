@@ -1,12 +1,15 @@
 <template>
-    <div id="app"> </div>
-    <!-- Aquí meto los componentes de la web-->
-    <Navigation />
+    <div id="app">
+      <!-- Aquí meto los componentes de la web-->
+      <Navigation />
+      
+    </div>
     
 </template>
 
 <script>
 // aquí importo toods los componentes que se van a utilizar
+import Navigation from './components/layout/navigation.vue';
 
 export default {
   name: 'App',
